@@ -1,0 +1,129 @@
+.cart_container {
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+.cart_heading {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.cart_global {
+    display: flex;
+    align-items: flex-start;
+}
+
+.cart_section_container {
+    flex: 8;
+    padding-left: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th, td {
+    text-align: center;
+    padding:  8px 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #dfdfdf;
+}
+
+tr:nth-child(odd) {
+    background-color: #c9c9c9;
+}
+
+tr:first-child {
+    background-color: #c9c9c9;
+}
+
+.cart_summary_container {
+    flex: 4;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart_summary {
+    min-width: 300px;
+    width: 70%;
+    max-width: 350px;
+    background-color: #c9c9c9;
+    border-radius: 8px;
+}
+
+.cart_summary_total_items {
+    margin: 15px 5px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.total_items {
+    font-weight: 700;
+}
+
+.cart_summary_subtotal,
+.cart_summary_discount {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtotal_title,
+.discount_title {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.subtotal_value,
+.discount_value,
+.total_value {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cart_summary_total {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total_title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cart_summary_checkout {
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkout_btn {
+    width: 65%;
+    height: 40px;
+    background-color: #dfdfdf;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 0px 5px 0px grey;
+    transform: all 300ms ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkout_btn:hover {
+    background-color: #d3d1d1;
+}

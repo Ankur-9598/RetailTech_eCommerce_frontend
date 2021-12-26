@@ -9,7 +9,7 @@ export default function TopNav() {
                 <span>My Logo</span>
             </div>
             <div className="nav_contents">
-                <a className="nav_profile_section">
+                <a href="/profile" className="nav_profile_section">
                     <div className="nav_profile_image">
                         <AccountCircle id="icon"/>
                     </div>
